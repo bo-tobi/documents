@@ -1,0 +1,314 @@
+Date: Wed, 15 Feb 2023 11:14:23 +0000 (UTC)
+Message-ID: <1906204585.15.1676459663161@3ae1c94d9d2c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_1244677672.1676459663161"
+
+------=_Part_14_1244677672.1676459663161
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>eVending - Creating a Remote Shell to an OpenShift POD</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>eVending - Creating a Remote Shell to an OpenShift POD</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"eVending-CreatingaRemoteShelltoanOpenShiftPOD-CreatingaRe=
+moteShelltoanOpenShiftPOD">Creating a Remote Shell to an OpenShift POD</h1>
+<p><a href=3D"https://docs.openshift.com/enterprise/3.1/dev_guide/ssh_envir=
+onment.html" class=3D"external-link" rel=3D"nofollow">https://docs.openshif=
+t.com/enterprise/3.1/dev_guide/ssh_environment.html</a>&nbsp;</p>
+<p></p>
+<ul>
+<li><p><strong>Login&nbsp;to&nbsp;OpenShift&nbsp;command&nbsp;line</strong>=
+&nbsp;(using&nbsp;the&nbsp;"Copy Login Command"&nbsp;from&nbsp;the&nbsp;Ope=
+nShift&nbsp;Online Web&nbsp;console)&nbsp;</p></li>
+<li><p>Change&nbsp;to&nbsp;the&nbsp;appropriate&nbsp;project:&nbsp;</p><p><=
+code>&gt;&nbsp;oc&nbsp;project&nbsp;&lt;projectname&gt;&nbsp;</code></p></l=
+i>
+<li><p>List&nbsp;the&nbsp;names&nbsp;of&nbsp;the&nbsp;available&nbsp;PODs:&=
+nbsp;</p><p><code>&gt;&nbsp;oc&nbsp;get&nbsp;pods&nbsp;</code></p></li>
+<li><p>Open&nbsp;remote&nbsp;shell&nbsp;to&nbsp;the&nbsp;selected&nbsp;POD:=
+</p><p><code>&gt;&nbsp;oc&nbsp;rsh&nbsp;&lt;pod&gt;&nbsp;</code></p></li>
+</ul>
+<p></p>
+<p></p>
+<h1 id=3D"eVending-CreatingaRemoteShelltoanOpenShiftPOD-Up-andDownloadingFi=
+lesto/fromaPODonOpenShift">Up- and Downloading&nbsp;Files to/from a POD on =
+OpenShift&nbsp;</h1>
+<h2 id=3D"eVending-CreatingaRemoteShelltoanOpenShiftPOD-RelatedLinks">Relat=
+ed Links</h2>
+<p><strong>Stack Overflow -&nbsp;cwrsync&nbsp;in windows not being recogniz=
+ed</strong>&nbsp;<br><a href=3D"https://stackoverflow.com/questions/2049330=
+9/cwrsync-in-windows-not-being-recognised" class=3D"external-link" rel=3D"n=
+ofollow">https://stackoverflow.com/questions/20493309/cwrsync-in-windows-no=
+t-being-recognised</a>&nbsp;</p>
+<p><strong>Transferring&nbsp;Files in and out of Containers in OpenShift</s=
+trong>&nbsp;<br><a href=3D"https://www.openshift.com/blog/transferring-file=
+s-in-and-out-of-containers-in-openshift-part-1-manually-copying-files" clas=
+s=3D"external-link" rel=3D"nofollow">https://www.openshift.com/blog/transfe=
+rring-files-in-and-out-of-containers-in-openshift-part-1-manually-copying-f=
+iles</a>&nbsp;</p>
+<h2 id=3D"eVending-CreatingaRemoteShelltoanOpenShiftPOD-Prerequisites">Prer=
+equisites</h2>
+<ul>
+<li><p>Downlaod<strong>&nbsp;cwRsync&nbsp;</strong>(<a href=3D"https://www.=
+rsync.net/resources/howto/windows_rsync.html" class=3D"external-link" rel=
+=3D"nofollow">https://www.rsync.net/resources/howto/windows_rsync.html</a>)=
+ and install it (extract&nbsp;files and&nbsp;copy&nbsp;them to&nbsp;<strong=
+>C:\Program&nbsp;Files\cwRsync</strong>&nbsp;then&nbsp;add path to the&nbsp=
+;<strong>PATH&nbsp;</strong>environment variable)</p></li>
+</ul>
+<h2 id=3D"eVending-CreatingaRemoteShelltoanOpenShiftPOD-TransferringFiles">=
+Transferring Files</h2>
+<ul>
+<li><p><strong>Login to OpenShift command line</strong>&nbsp;(using the "Co=
+py&nbsp;Login Command" from the OpenShift Online Web console)&nbsp;</p></li=
+>
+<li><p>Use the&nbsp;<strong>oc&nbsp;rsync</strong>&nbsp;command to download=
+/upload the&nbsp;files&nbsp;</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&gt;&nb=
+sp;oc&nbsp;rsync&nbsp;&lt;pod-name&gt;:/remote/dir/filename ./local/dir</pr=
+e>=20
+</div>
+</div>
+<p></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>You&nbsp;can&nbsp;only&nbsp;specify&nbsp;a&nbsp;directory&nbsp;(not a fi=
+le) as a destination. If you want to make sure not to overwrite any existin=
+g files, <strong>create a new directory</strong> and specify it&nbsp;as the=
+ destination.&nbsp;</p>
+</div>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_14_1244677672.1676459663161--

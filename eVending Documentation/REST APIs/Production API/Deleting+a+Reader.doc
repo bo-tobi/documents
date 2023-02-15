@@ -1,0 +1,410 @@
+Date: Wed, 15 Feb 2023 10:57:41 +0000 (UTC)
+Message-ID: <1870301324.5.1676458661682@2c6d165e0e73>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_2090343317.1676458661682"
+
+------=_Part_4_2090343317.1676458661682
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Deleting a Reader</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Deleting a Reader</h1>
+    <div class=3D"Section1">
+        <p>This request is used by the production tool to delete a previous=
+ly created offline reader from eVending.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 123.0px;">
+<col style=3D"width: 636.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Request</strong></p></td>
+<td class=3D"confluenceTd"><p>DeleteReader</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Endpoint</strong></p></td>
+<td class=3D"confluenceTd"><p>[host]/[application]/rest/production/deletere=
+ader</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><strong>Request Fields:</strong></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 133.0px;">
+<col style=3D"width: 247.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Ele=
+ment</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>For=
+mat</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Des=
+cription</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Con=
+dition</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" colspan=3D"4" class=3D"confluenceTd">=
+<p>Base: reqId, reqTs, credential (see =E2=80=9CCommon Request Fields=E2=80=
+=9D above)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ID101</p></td>
+<td class=3D"confluenceTd"><p>anx{20}</p></td>
+<td class=3D"confluenceTd"><p>ID101 of the reader to confirm.</p></td>
+<td class=3D"confluenceTd"><p>m <sup>1)</sup></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>productionN=
+umber</p></td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>anx{20}</p>=
+</td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>Production =
+number of the reader (sent to eVending for storage/retraceability)</p></td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>m <sup>1)</=
+sup></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><sup>1)</sup> Either <strong>ID101 </strong>or <strong>productionNumber =
+</strong>must be specified.<br>If both fields are provided they both must m=
+atch an existing reader otherwise REQ_ERROR_OFFLINE_READER_NOT_FOUND is ret=
+urned.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 199.0px;">
+<col style=3D"width: 560.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Calculation of Credential</strong></p=
+></td>
+<td class=3D"confluenceTd"><p>reqId | reqTs | ID101 | productionNumber</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Key</strong></p></td>
+<td class=3D"confluenceTd"><p>Production Interface Key</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><strong>Request Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">POST /b=
+ackend/rest/production/deletereader HTTP/1.1
+Host: xxx
+Content-Length: xxx
+Content-Type: application/json
+
+{
+  "debugAttributes":
+      {"acceptWrongCredential": 1, "acceptDoubleReqID": 1, "acceptWrongReqT=
+s": 1},
+  "reqID": "A64D5554-DC94-D672-6F1E-B8C433FD4D39",
+  "reqTs": 1448270236000,
+  "ID101": "MIC781888"
+}
+</pre>=20
+</div>
+</div>
+<p>&nbsp;</p>
+<p><strong>DeleteReader Response:</strong></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 133.0px;">
+<col style=3D"width: 247.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Ele=
+ment</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>For=
+mat</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Des=
+cription</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Con=
+dition</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" colspan=3D"4" class=3D"confluenceTd">=
+<p>Base: reqId, credential, respTs, responseCode, responseLabel, responseTe=
+xt (see section =E2=80=9CBase Fields in Responses=E2=80=9D in <a href=3D"/w=
+iki/spaces/MTS/pages/298189141/Base+Fields" data-linked-resource-id=3D"2981=
+89141" data-linked-resource-version=3D"6" data-linked-resource-type=3D"page=
+">Base Fields</a>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>ResponseCodes:</strong></p>
+<ul>
+<li><p><strong>REQ_OK </strong>if reader was deleted</p></li>
+<li><p><strong>REQ_ERROR_OFFLINE_READER_NOT_FOUND </strong>if reader with s=
+pecified ID101 or productionNumber does not exist or if ID101 and productio=
+nNumber do not match.</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 199.0px;">
+<col style=3D"width: 560.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Calculation of Credential</strong></p=
+></td>
+<td class=3D"confluenceTd"><p>reqId | responseCode</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Key</strong></p></td>
+<td class=3D"confluenceTd"><p>Production Interface Key</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_4_2090343317.1676458661682--

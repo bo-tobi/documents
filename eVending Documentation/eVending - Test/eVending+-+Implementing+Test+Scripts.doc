@@ -1,0 +1,529 @@
+Date: Wed, 15 Feb 2023 11:16:09 +0000 (UTC)
+Message-ID: <573126483.9.1676459769412@88be1e275469>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_488188695.1676459769412"
+
+------=_Part_8_488188695.1676459769412
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>eVending - Implementing Test Scripts</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>eVending - Implementing Test Scripts</h1>
+    <div class=3D"Section1">
+        <p>Test scripts are used to test the functionality of the eVending =
+backend code.</p>
+<h1 id=3D"eVending-ImplementingTestScripts-CreatingNewTestScripts">Creating=
+ New Test Scripts</h1>
+<h2 id=3D"eVending-ImplementingTestScripts-TestScriptPath">Test Script Path=
+</h2>
+<p>The test scripts are located in the following path of the backend reposi=
+tory:</p>
+<p style=3D"margin-left: 30.0px;"><strong>evending-web/src/test/java/ch/mic=
+rotronic/evending/web/arquillian</strong></p>
+<p></p>
+<h2 id=3D"eVending-ImplementingTestScripts-TestScriptClasses">Test Script C=
+lasses</h2>
+<p>Basically there is a dedicated test script class for the <strong>Browser=
+ Interface</strong>, the <strong>Reader Interface</strong> and the <strong>=
+TicketGen Interface</strong> as well as a class implementing <strong>Integr=
+ation Tests</strong>:</p>
+<ul>
+<li><p><strong>BrowserInterface.java</strong></p></li>
+<li><p><strong>ReaderInterface.java</strong></p></li>
+<li><p><strong>TicketGenInterface.java</strong></p></li>
+<li><p><strong>IntegrationTests.java</strong></p></li>
+</ul>
+<p>All the above classes are derived specializations of the base class <str=
+ong>BaseInterfaceTest.java</strong>.</p>
+<p></p>
+<h2 id=3D"eVending-ImplementingTestScripts-ImplementinganewMethodforaTestCl=
+ass">Implementing a new Method for a Test Class</h2>
+<p>To implement a new test case the appropriate <strong>interface or integr=
+ation test class</strong>&nbsp;is <strong>extended with a method that is an=
+notated as test</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">@Test=
+=20
+public void SetReaderApplication_DeleteReaderApplication() throws Exception=
+ {...} </pre>=20
+</div>
+</div>
+<p>In this top level test method calls the test methods of the appropriate =
+<strong>test class</strong> which implement the single <strong>test cases</=
+strong> (see below).</p>
+<p><strong>Example for a test class:</strong><br>web/src/test/java/ch/micro=
+tronic/evending/arquillian/service/freevends/FreeVendsTest.java).</p>
+<p></p>
+<h2 id=3D"eVending-ImplementingTestScripts-TestClassesforFeatures">Test Cla=
+sses for Features</h2>
+<p>For each feature a corresponding<strong> test class</strong> is implemen=
+ted. The test class contains <strong>methods for each test case</strong> re=
+lated to the feature. </p>
+<p>Test classes are located in the directory:<br><strong>evending-web/src/t=
+est/java/ch/microtronic/evending/arquillian/</strong><br><strong>service/&l=
+t;feature&gt;/&lt;feature&gt;Test.java</strong>&nbsp;</p>
+<p>The test methods of the test class <strong>execute REST requests</strong=
+> and check for the <strong>correct answers</strong> to the requests.</p>
+<p>To have access in the test methods to the <strong>definitions of the bas=
+e test class</strong>, the base test class is passed as a parameter to the =
+test methods of the test class.</p>
+<p>For example&nbsp;<strong>FreeVendsTest.java:</strong>&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+void browserInterfaceTest(BaseInterfaceTest b) throws Exception {...}&nbsp;=
+</pre>=20
+</div>
+</div>
+<p>&nbsp;</p>
+<h2 id=3D"eVending-ImplementingTestScripts-TestRequests">Test Requests&nbsp=
+;</h2>
+<p>To be able to send <strong>test REST requests</strong> to the backend an=
+d check the received answers, each REST API request needs a <strong>dedicat=
+ed test implementation</strong>. </p>
+<p>The implementations for the test REST requests are located in the test i=
+nterface directories of the appropriate interface:&nbsp;</p>
+<p>&nbsp;<strong>evending-web/src/test/java/ch/microtronic/evending/arquill=
+ian/interfaces/..</strong>&nbsp;</p>
+<p>&nbsp;To use the test requests in the appropriate test methods, the <str=
+ong>test request class</strong> needs to be <strong>injected </strong>to th=
+e appropriate test class:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">@Inject=
+&nbsp;
+SetMerchantTest setMerchantTest;&nbsp;</pre>=20
+</div>
+</div>
+<p></p>
+<p>In the test method the <strong>request</strong> can be <strong>executed =
+</strong>by calling the <strong>runParam()</strong> method of the appropria=
+te test request and then the response can be checked with e.g. the <strong>=
+Assert methods</strong> of the Hamcrest matcher:&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">setAcco=
+untTest.runParam(session.sessionData, changeData, TestResponse.Common.REQ_O=
+K.getCode());
+
+response&nbsp;=3D getAccountTest.runParam(session.sessionData, TestResponse=
+.Common.REQ_OK.getCode());&nbsp;
+accountData =3D GetAccountTest.getAccountData(response);&nbsp;
+
+Assert.assertNotNull("No data found", accountData);&nbsp;
+Assert.assertTrue("No account should be returned", accountData.length =3D=
+=3D 0);&nbsp;
+Assert.assertFalse("Last Name should be different", session.accountData.las=
+tName =3D=3D accountData.lastName);&nbsp;
+Assert.assertEquals("Login Name should be equal", session.accountData.login=
+Name, accountData.loginName);&nbsp;</pre>=20
+</div>
+</div>
+<p>The&nbsp;<strong>getAccountData()</strong>&nbsp;method of the test reque=
+st class converts the generic object from the REST response to an object of=
+ the expected type.</p>
+<p>Using the methods of the Assert class (assertNotNull(), assertTrue(), as=
+sertFalse() assertEquals(), etc.) the response can be checked for expected =
+values.&nbsp;</p>
+<p></p>
+<h2 id=3D"eVending-ImplementingTestScripts-Definitions">Definitions</h2>
+<p>The&nbsp;<strong>BaseInterfaceTest.java</strong>&nbsp;class defines many=
+ constants that are often used in the test scenarios (e.g. operator ids, me=
+rchant ids, registration footprints, authorities, logins, sessions etc.).</=
+p>
+<p></p>
+<h2 id=3D"eVending-ImplementingTestScripts-HelperClasses">Helper Classes</h=
+2>
+<p>Methods that are often used in different test cases are defined in helpe=
+r classes (e.g. <strong>arquillian/interfaces/helper/HelperUsecase.java</st=
+rong>).&nbsp;</p>
+<p>For example:</p>
+<ul>
+<li><p><strong>createAccount()</strong>&nbsp;</p></li>
+<li><p><strong>createReader()</strong>&nbsp;&nbsp;</p></li>
+<li><p>etc.&nbsp;</p></li>
+</ul>
+<p>&nbsp;</p>
+<h2 id=3D"eVending-ImplementingTestScripts-DatabaseAccess">Database Access<=
+/h2>
+<p>In case a test method needs direct access to the database (e.g. for sett=
+ing default values, or to fetch values that cannot be retrieved by test req=
+uests) the <strong>DbAccess class</strong>&nbsp;(<strong>/arquillian/infras=
+tructure/DbAccess.java</strong>) can be used.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong>Whenever possible, use test methods of the interface classes to =
+retrieve values from the backend. </strong><br>(Everything that can be conf=
+igured using the web interface, shall also be configurable via <strong>test=
+ REST requests</strong>).</p>
+<p><strong>Rather implement a missing test rest request than accessing the =
+requested value directly in the data base.</strong></p>
+<p><strong>Try to avoid direct database access using the DbAccess methods w=
+henever possible.</strong></p>
+</div>
+</div>
+<p>&nbsp;</p>
+<h2 id=3D"eVending-ImplementingTestScripts-ProprietaryDataTypesforTests">Pr=
+oprietary Data Types for Tests</h2>
+<p>To keep the test scripts independent from the backend <strong>proprietar=
+y data types</strong> are defined for the tests.</p>
+<p>I.e. the data types (data structures, enums, etc.) that are used in the =
+tests are copied over (<strong>duplicated</strong>) from the backend code t=
+o the test scripts.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>If the data types would be shared between test scripts and the backend i=
+mplementation, the test scripts would not be able to detect if for example =
+a <strong>range for an enum </strong>or the <strong>structure of a data obj=
+ect</strong> was changed in the implementation.</p>
+</div>
+</div>
+<p>&nbsp;</p>
+<h2 id=3D"eVending-ImplementingTestScripts-DefinitionofErrorCodes">Definiti=
+on of Error Codes&nbsp;</h2>
+<p>If specific error codes have been defined for a feature (e.g. '<strong>R=
+EQ_ERROR_FREE_VEND_RULE_NOT_FOUND</strong>' in&nbsp;<strong>FreeVendRuleReq=
+uestService.java</strong>) the appropriate type in the <strong>TestResponse=
+.java</strong>&nbsp;class is extended with the corresponding value.</p>
+<p></p>
+<h2 id=3D"eVending-ImplementingTestScripts-ComplexTests">Complex Tests&nbsp=
+;</h2>
+<p>To simulate for example a connected reader and its requests in a test ca=
+se, you can start threads that can run tasks in parallel and wait for their=
+ results.</p>
+<p>For example:<br><strong>ReaderInterfaceTest.java - wsReaderSessionStartT=
+est</strong>&nbsp;</p>
+<p></p>
+<p></p>
+<p>&nbsp;</p>
+<p><strong>Mocks</strong>&nbsp;</p>
+<p>siehe mailMock im Browserinterface/ImportAccounts Test&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Zugriff auf DB der Testscripts</strong>&nbsp;</p>
+<ul>
+<li><p>Build Web for Arquillian (Grunt Script:&nbsp;<strong>__dev-build-acc=
+ess-arquilian-tests</strong>)&nbsp;</p></li>
+</ul>
+<p>Setzt die URLs in der Web-Applikation so, dass diese auf die Arquillian-=
+Testumgebung zugreift.&nbsp;</p>
+<ul>
+<li><p>Zugriff mit Browser wie auf normalen lokalen Server ("normale" URLs =
+verwenden)&nbsp;</p></li>
+<li><p>Utils.sleep() Statement im Test einbauen, damit der Test-Server "sch=
+l=C3=A4ft" d.h. der Server l=C3=A4uft und man hat Zeit, um mit dem Browser =
+auf die Arqullian-DB zuzugreifen.&nbsp;</p></li>
+<li><p>login:&nbsp;</p>
+<ul>
+<li><p>evending: micdev, aaaaaa&nbsp;</p></li>
+<li><p>cafe4u: testoperator, aaaaaa&nbsp;&nbsp;</p></li>
+</ul><p>&nbsp;</p></li>
+<li><p>Nach dem Test wieder eine normale Web-Version builden&nbsp;</p></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Zeit und Datum Simulieren</strong>&nbsp;</p>
+<p>F=C3=BCr Zeit- oder Datumsmanipulationen sollte die folgende Klasse verw=
+endet werden:&nbsp;</p>
+<p><code>org.joda.time.DateTime&nbsp;</code></p>
+<p>&nbsp;</p>
+<p>Die Klasse DateTimeUtils bietet Methoden, um die System-Zeit zur Laufzei=
+t umzustellen:&nbsp;</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 340.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p><strong=
+>DateTimeUtils.currentTimeMillis()</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p>Gibt di=
+e aktuelle Systemzeit im Millisekunden zur=C3=BCck.&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p><strong=
+>DateTimeUtils.setCurrentMillisFixed()</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p>Setzt d=
+ie aktuelle Zeit auf einen fixierten Wert&nbsp;</p>
+<ul>
+<li><p>new DateTime() Objekte werden mit disem Wert initialisiert&nbsp;</p>=
+</li>
+<li><p>currentTimeMillis() gibt diesen Wert zur=C3=BCck&nbsp;</p></li>
+</ul></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p><strong=
+>DateTimeUtils.setCurrentMillisOffset()</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p>Setzt d=
+ie aktuelle Zeit so dass die Systemzeit plus der Offset zur=C3=BCck gegeben=
+ wird.&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p><strong=
+>DateTimeUtils.setCurrentMillisSystem()</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd"><p>Setzt d=
+ie aktuelle Zeit zur=C3=BCck, so dass wieder die Systemzeit zur=C3=BCckgege=
+ben wird.&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><a href=3D"http://joda-time.sourceforge.net/apidocs/org/joda/time/DateTi=
+meUtils.html" class=3D"external-link" rel=3D"nofollow">http://joda-time.sou=
+rceforge.net/apidocs/org/joda/time/DateTimeUtils.html</a>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>DateTime Objekt f=C3=BCr eine andere Zeitzone kreieren</strong>&=
+nbsp;</p>
+<p>&nbsp;</p>
+<p>Mit Zeitzone als Objekt:&nbsp;</p>
+<p><code>DateTime dateTime =3D new DateTime(DateTimeZone.UTC);&nbsp;</code>=
+</p>
+<p>&nbsp;</p>
+<p>Mit Zeitzone als String: (Beispiel: DailyTransactionReportService.java)&=
+nbsp;&nbsp;</p>
+<p><code>DateTime dt =3D new DateTime(DateTimeZone.forTimeZone(TimeZone.get=
+TimeZone(operator.getBaseSettings().getTimeZone())));&nbsp;</code></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_8_488188695.1676459769412--

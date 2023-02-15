@@ -1,0 +1,298 @@
+Date: Wed, 15 Feb 2023 11:13:42 +0000 (UTC)
+Message-ID: <1639859288.7.1676459622007@9ed56e58cc97>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_6_1103662492.1676459622007"
+
+------=_Part_6_1103662492.1676459622007
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>eVending - e-Mail Notifications for Server Administrators and Te=
+chnical Sales Staff</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>eVending - e-Mail Notifications for Server Administrators and Techn=
+ical Sales Staff</h1>
+    <div class=3D"Section1">
+        <p>Beside the e-mail notifications that are sent to customers (see =
+<a href=3D"/wiki/spaces/MTS/pages/304152637/eVending+-+e-Mail+Notifications=
+" data-linked-resource-id=3D"304152637" data-linked-resource-version=3D"5" =
+data-linked-resource-type=3D"page">eVending - e-Mail Notifications</a>), th=
+e eVending backend also sends notifications to system administrators or tec=
+hnical sales staff when a new operator is created (see <a href=3D"/wiki/spa=
+ces/MTS/pages/364577438/eVending+-+Creating+a+new+%28Offline%29+Operator" d=
+ata-linked-resource-id=3D"364577438" data-linked-resource-version=3D"11" da=
+ta-linked-resource-type=3D"page">eVending - Creating a new (Offline) Operat=
+or</a>).</p>
+<p>The following notifications are sent:</p>
+<ul>
+<li><p><strong>New operator waits on branding!</strong> </p></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">To indicate that a new operator was creat=
+ed/assigned in NFCgate </p>
+<ul>
+<li><p><strong>Operator &lt;OperatorName&gt; activated!</strong></p></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">To indicate that a new operator was activ=
+ated in eVending.</p>
+<ul>
+<li><p><strong>&lt;MM/YYYY&gt;: Report of ctive readers at &lt;host&gt;</st=
+rong></p></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">To send a report of active readers on the=
+ respective eVending host.</p>
+<p></p>
+<p>The notifications are sent in the backend code by <strong>MailHandler.ja=
+va</strong></p>
+<p>The <strong>recipients </strong>are<strong> hard-coded</strong> in the b=
+ackend code:</p>
+<ul>
+<li><p> <strong>sendOperatorWaitsBranding()</strong></p>
+<ul>
+<li><p>RecipientsCC: <code>Parameter.evendingAdminEmailAddress</code></p></=
+li>
+</ul></li>
+<li><p><strong>sendOperatorActivated()</strong></p>
+<ul>
+<li><p>Recipients: <code>Parameter.emailRecipientsMicSale</code> </p></li>
+<li><p>RecipientsCC: <code>Parameter.evendingAdminEmailAddress</code></p></=
+li>
+</ul></li>
+<li><p><strong>sendActiveReaderApplcationsCalculation()</strong></p>
+<ul>
+<li><p>Recipients: <code>Parameter.emailRecipientsCalculation</code></p></l=
+i>
+<li><p>RecipientsCC: <code>Parameter.emailCcRecipientsCalculation</code></p=
+></li>
+</ul></li>
+</ul>
+<p></p>
+<p><strong>There is a Jira issue to replace hard coded e-mail recipient lis=
+t with environment variables:</strong></p>
+<p><a href=3D"https://cranecs.atlassian.net/browse/MIC-1776" data-card-appe=
+arance=3D"inline" class=3D"external-link" rel=3D"nofollow">https://cranecs.=
+atlassian.net/browse/MIC-1776</a> </p>
+    </div>
+</body>
+</html>
+------=_Part_6_1103662492.1676459622007--

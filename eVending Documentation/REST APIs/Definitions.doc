@@ -1,0 +1,408 @@
+Date: Wed, 15 Feb 2023 10:54:51 +0000 (UTC)
+Message-ID: <1281849346.3.1676458491278@5bb5e5c47bb9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1714893961.1676458491276"
+
+------=_Part_2_1714893961.1676458491276
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Definitions</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Definitions</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"Definitions-FieldFormats">Field Formats</h1>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 110.0px;">
+<col style=3D"width: 649.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#b3bac5" class=3D"confluenceTh"><p><strong>Nam=
+e</strong></p></th>
+<th data-highlight-colour=3D"#b3bac5" class=3D"confluenceTh"><p><strong>Des=
+cription</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>uuid</p></t=
+d>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>UUID in ASC=
+II-hex representation consisting of 5 parts separated by a hyphen, upper ca=
+se. Example:<br>936DA01F-9ABD-4D9D-80C7-02AF85C822A8</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>b{x}</p></td>
+<td class=3D"confluenceTd"><p>ASCII-hex representation consisting of x alph=
+anumeric characters, uppercase. Valid characters are 0-9 and A-F. Examples:=
+</p><p>b: 2E19C5DB57650C453D unspecified length</p><p>b10: ED0249C485 10 di=
+gits</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>n{x}</p></t=
+d>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>Numeric val=
+ue consisting of max. x digits.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>an{x}</p></td>
+<td class=3D"confluenceTd"><p>Alphanumeric value, containing "A" to "Z", "a=
+" to "z", "0" to "9", consisting of maximal x characters.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>ans{x}</p><=
+/td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>String char=
+acters consisting of maximal x characters. (ASCII code &gt;=3D 0x20). Codes=
+ above 0x7E are encoded in UTF8.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>anx{x}</p></td>
+<td class=3D"confluenceTd"><p>Alphanumeric value, containing "A" to "Z", "a=
+" to "z", "0" to "9", ".", "-", "_", "#" consisting of maximal x characters=
+.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>bool</p></t=
+d>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>Boolean val=
+ue, represented as 0 or 1 in JSON and in HMAC calculations.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>time</p></td>
+<td class=3D"confluenceTd"><p>Number of milliseconds since 1<sup>st</sup> J=
+anuary 1970 (UTC), represented as numeric.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>arr(y)</p><=
+/td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>Array of ty=
+pe <em>y</em></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>object</p></td>
+<td class=3D"confluenceTd"><p>A specific type / class definition described =
+in the effective context.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>base64</p></td>
+<td class=3D"confluenceTd"><p>base64 encoded binary data.</p><p>The followi=
+ng file is an example implementation for encoding binary data from a file t=
+o <strong>base64 </strong>in Java.</p><p class=3D"media-group"><img height=
+=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-sizing: border-b=
+ox; vertical-align: text-bottom;" src=3D"195884ba758f0a5fde6f8979364d6428" =
+width=3D"250"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"Definitions-Conditions,whetherafieldneedstobeexistent">Conditions=
+, whether a field needs to be existent</h1>
+<p>Some fields in JSON objects transferred are optional, some are mandatory=
+. The following definitions are used:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 101.0px;">
+<col style=3D"width: 658.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#b3bac5" class=3D"confluenceTh"><p><strong>Nam=
+e</strong></p></th>
+<th data-highlight-colour=3D"#b3bac5" class=3D"confluenceTh"><p><strong>Des=
+cription</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>m</p></td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>Mandatory. =
+The field must be existent. In responses, the field needs only to be existe=
+nt, if the response is OK (responseCode =3D 0).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>o</p></td>
+<td class=3D"confluenceTd"><p>Optional. Field can be omitted.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>m[c.nok]</p=
+></td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd"><p>In Response=
+s: Mandatory field. The field must be present in <em>every</em> case, even,=
+ if <em>credential</em> is invalid.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>m[c.ok]</p></td>
+<td class=3D"confluenceTd"><p>In Responses: Mandatory field. The field must=
+ also be present in error situations (responseCode !=3D 0) but only, if <em=
+>credential</em> has been validated successfully.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_2_1714893961.1676458491276
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/195884ba758f0a5fde6f8979364d6428
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAEZElEQVR4Xu3ci1LiSBSA4UMg6cglgoDgKDP9/i+11OxWrTVV42VU
+EFGz6SQINGiJFRJY/s+q2H1y1Jx0LjOkQQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+9kDJDmyH//patmPveHGcRzu2x/yK69ux9/iu8+ncPeC5duQjrmdHtsKxA1vx6aM9Vn61I3tM2YGP
+bZj+RfmM+k464NI3Ogm/rPJiR4K+N3E63XBirzBW07ehoNIbo/L4KZSX+8a62lfS95h93eqps6Rx
+phrLa2J2+j6zagkq32fN43KwuCaRT+mFXOZazZ+z5u1xa3FNnip2IA+j8bw9KWQL8mMdweWF/zQF
+5kJrrf//HvBHlXDe+VPYqBdR+o6g9ENE6YeosNLzuYF9pLDSi0fph4jSDxGlHyJKP0SUXpxqtWqH
+clJI6abYafokueyO5KiQ6osofXzrR4PdTDqNV5HwdjkhH0WULtVjGTWv+2Jekf89EjkuZNQLefAU
+Oo/yp1quOZ3rRhiV7o6Xn6jn8+CpkNLrd9WpPEmj/ODcTUVq4+ryk7d8Ss+H/brEQC1Ml/Gd83kn
+Zqfvs5Va2pXarNlQ7cU1xkr6HlutZeA0e/7Rkd9rVuwxX5e+v9bUErj1impV6u6amXtr0vfWhrVs
+mP5FhdzXdwOlb9nLRlM//Xxu6/mU7mxUzEtOG2UHtsIJN5kenFPpa24t23C4k8IBAAAAAAAAAFuk
+7cAXaDuQqYxe7ddaK1UvpVvbU+n0qAXa6ntrcvKVUekyHD75027S7t+0bpbXrlGqLbyx9R1DO5Cp
+rEo3k9+6yfS3zrV3ab4ppTrSUOb5TqC0OTBE2lGwbqaKncmVmPew6xMVJotGS6mWP8uPn1NFP5BE
+L+JoSflJN/4zu0KbxYUyjWa62WoQDFRf1EnUOakkGefqPGgo87Ezpx1pfovTaulCDUrBafctP/2t
+s2hHzM6cdXeJjsbkTEXbpD2VzP/TZnKQq2SgjqICzpLSVU+SPVSNhtE3mdq8iT9eGME8P/4db1HX
+TLRQyQf7BBlNusjqgNfau2qb2W8tmSaRB4ln5f0tVanJv2naZRiGlUeRqRvK43NUZLQ+XdRaSp88
+Wvmz6LNcRF/Ps+4u0fPG9/jgFG0Oe1/FI1930wx1kaYpbcQnSPxDJvTtolrSb/lpfBbteuJ1590s
+ZDXqcz+9ux/mu5kYZ2YUuHI+jUr5Kz4P0ifNvlwNh8MrWbpg3f8zMnsmzbeiXklKZlvT7g7Ri42a
+uWUnlzlzwnuqHi1VP6q9rzq+31biJXu83FwcdS/oKdNK8k1QL0SVF5/us24Gsh/16CzvjqOLeOPX
+5Fftt5ghNv94eb1+0HJ5eheG9y0pncaJ3cVbu1+a3JiTP823o+HEfNTBW3c/tDfcvW/51Ywu5e/Y
+cLO+4OLe3L8/b55f2Me2ZESvzv790Dw/VIOlNQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA
+DfwHOsKy5xz4lH4AAAAASUVORK5CYII=
+------=_Part_2_1714893961.1676458491276--

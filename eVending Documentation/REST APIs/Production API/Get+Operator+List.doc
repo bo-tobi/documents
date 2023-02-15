@@ -1,0 +1,446 @@
+Date: Wed, 15 Feb 2023 10:57:48 +0000 (UTC)
+Message-ID: <1893299964.3.1676458668879@92f995a731e7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_2131089916.1676458668878"
+
+------=_Part_2_2131089916.1676458668878
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Operator List</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Operator List</h1>
+    <div class=3D"Section1">
+        <p><br>This request is used by the production tool to request List =
+of Operators in eVending application. <br>In the response, the backend will=
+ provide the list of all operators in evending application.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 123.0px;">
+<col style=3D"width: 636.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p><strong>Req=
+uest</strong></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>GetOperator=
+List</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p><strong>End=
+point</strong></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>[host]/[app=
+lication]/rest/production/getoperatorlist</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong>Request Fields:</strong></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 133.0px;">
+<col style=3D"width: 247.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Ele=
+ment</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>For=
+mat</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Des=
+cription</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Con=
+dition</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" colspan=3D"4" class=3D"confluenceTd">=
+<p>Base: reqId, reqTs, credential (see =E2=80=9CCommon Request Fields=E2=80=
+=9D <a href=3D"/wiki/spaces/MTS/pages/298057990/Production+Interface" data-=
+linked-resource-id=3D"298057990" data-linked-resource-version=3D"11" data-l=
+inked-resource-type=3D"page">above</a>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 214.0px;">
+<col style=3D"width: 545.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Calculation of Credential</strong></p=
+></td>
+<td class=3D"confluenceTd"><p>reqId | reqTs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Key</strong></p></td>
+<td class=3D"confluenceTd"><p>Production Interface Key</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><strong>Request Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">POST /b=
+ackend/rest/production/getoperatorlist HTTP/1.1
+Host: xxx
+Content-Length: xxx
+Content-Type: application/json
+
+{
+  "debugAttributes":
+      {"acceptWrongCredential": 1, "acceptDoubleReqID": 1, "acceptWrongReqT=
+s": 1},
+  "reqID": "A64D5554-DC94-D672-6F1E-B8C433FD4D39",
+  "reqTs": 1448270236000,
+  "credential": "18560213752D4E1B9C8C3B64F33FA4E5BA536E82"
+}</pre>=20
+</div>
+</div>
+<p><br></p>
+<p><strong>GetOperatorList Response:</strong></p>
+<p>List of Operators, providing =E2=80=9COperator Global ID=E2=80=9D and =
+=E2=80=9COperator Name=E2=80=9D for each operator.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 133.0px;">
+<col style=3D"width: 247.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Ele=
+ment</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>For=
+mat</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Des=
+cription</strong></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p><strong>Con=
+dition</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" colspan=3D"4" class=3D"confluenceTd">=
+<p>Base: reqId, credential, respTs, responseCode, responseLabel, responseTe=
+xt (see section =E2=80=9CBase Fields in Responses=E2=80=9D in <a href=3D"/w=
+iki/spaces/MTS/pages/298189141/Base+Fields" data-linked-resource-id=3D"2981=
+89141" data-linked-resource-version=3D"6" data-linked-resource-type=3D"page=
+">Base Fields</a>)</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>operators</=
+p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>array(objec=
+t)</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>list of ope=
+rators</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>o</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The =E2=80=9Coperators=E2=80=9D field is an array of <strong>operator da=
+ta objects</strong>. Each operator data object has the following fields:</p=
+>
+<ul>
+<li><p>operatorGlobalID (Integer)</p></li>
+<li><p>operatorName (String)</p></li>
+<li><p>operatorType (OpertorType: { E_VENDING | OFFLINE })</p></li>
+<li><p>operatorAcCode (String)</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 199.0px;">
+<col style=3D"width: 560.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p><strong>Cal=
+culation of Credential</strong></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>reqId | res=
+ponseCode</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p><strong>Key=
+</strong></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"><p>Production =
+Interface Key</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><strong>Response Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.=
+1 200 OK
+Content-Length: xxx
+Content-Type: application/json
+{
+  "reqID": "19E324AC-3B4A-47D0-AAED-DE5D8C788DB3",
+  "credential": "E97C91FA84E59C9C9B90E3F6E716A07FA8CEC440",
+  "responseTs":1448270236000,
+  "responseCode": 0,
+  "responseLabel": "REQ_OK"
+  "operators": [
+    {
+      "operatorGlobalID": 2043387152,
+      "operatorName": "Offline Test",
+      "operatorType": "OFFLINE",
+      "operatorAcCode": "AC-84"
+    },
+    {
+      "operatorGlobalID": 167,
+      "operatorName": "EHS aeroengine",
+      "operatorType": "E_VENDING",
+    },
+    ...
+    {
+      "operatorGlobalID": 72,
+      "operatorName": "World Matic",
+      "operatorType": "E_VENDING"
+    }
+  ]
+}</pre>=20
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2_2131089916.1676458668878--
